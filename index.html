@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multiple 0:00 Timers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="timers">
+    <div class="timer">
+      <button class="start" onclick="startTimer(1)">Start</button>
+      <button class="stop" onclick="stopTimer(1)">Stop</button>
+      <h2 id="timer1">0:00</h2>
+    </div>
+    <div class="timer">
+      <button class="start" onclick="startTimer(2)">Start</button>
+      <button class="stop" onclick="stopTimer(2)">Stop</button>
+      <h2 id="timer2">0:00</h2>
+    </div>
+    <div class="timer">
+      <button class="start" onclick="startTimer(3)">Start</button>
+      <button class="stop" onclick="stopTimer(3)">Stop</button>
+      <h2 id="timer3">0:00</h2>
+    </div>
+    <div class="timer">
+      <button class="start" onclick="startTimer(4)">Start</button>
+      <button class="stop" onclick="stopTimer(4)">Stop</button>
+      <h2 id="timer4">0:00</h2>
+    </div>
+    <div class="timer">
+      <button class="start" onclick="startTimer(5)">Start</button>
+      <button class="stop" onclick="stopTimer(5)">Stop</button>
+      <h2 id="timer5">0:00</h2>
+    </div>
+  </div>
+  <button onclick="stopAllTimers()">Stop All</button>
+  <script src="scripts.js"></script>
+</body>
+</html>
